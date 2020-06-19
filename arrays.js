@@ -8,7 +8,7 @@ var addElementToBeginningOfArray = (arr, val) => {
 
 var destructivelyAddElementToBeginningOfArray = (arr, val) => {
   arr.unshift(val)
-  return arr 
+  return arr
 }
 
 var addElementToEndOfArray = (arr, val) => {
@@ -18,5 +18,5 @@ var addElementToEndOfArray = (arr, val) => {
 
 var destructivelyAddElementToEndOfArray = (arr, val) => {
   arr.push(val)
-  return arr 
+  return arr
 }
