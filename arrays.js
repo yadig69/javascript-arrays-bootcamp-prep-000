@@ -42,7 +42,7 @@ function destructivelyRemoveElementFromEndOfArray(arr) {
   return arr
 }
 
-function destructivelyRemoveElementFromEndOfArray(arr) {
+function RemoveElementFromEndOfArray(arr) {
   var newArray = arr.slice(0, arr.length - 1)
   return newArray
 }
