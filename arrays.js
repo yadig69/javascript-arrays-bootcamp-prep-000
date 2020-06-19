@@ -20,3 +20,8 @@ var destructivelyAddElementToEndOfArray = (arr, val) => {
   arr.push(val)
   return arr
 }
+
+function accessElementInArray(arr, index) {
+  var val = arr[index]
+  return val
+}
